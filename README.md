@@ -1,8 +1,15 @@
-# Sample Hardhat Project
+# 记录SWC Registry学习过程
+参考资料：https://swcregistry.io/docs/SWC-100
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+#### regitry_docs
+SWC Registry的中文翻译文档，以及译者添加的注解
 
-Try running some of the following tasks:
+#### contracts
+SWC Registry的案例合约
+
+#### test
+SWC Registry的案例测试
+
 
 ```shell
 npx hardhat help
