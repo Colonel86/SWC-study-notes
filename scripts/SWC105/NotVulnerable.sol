@@ -45,7 +45,7 @@ contract TestContract is MultiOwnable {
     msg.sender.transfer(this.balance);
   }
 
-  function() payable {
+  fallback() payable {
   }
 
 }

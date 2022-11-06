@@ -24,6 +24,42 @@ declare module "hardhat/types/runtime" {
       name: "TokenSaleChallenge",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.TokenSaleChallenge__factory>;
+    getContractFactory(
+      name: "ERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ERC20__factory>;
+    getContractFactory(
+      name: "IERC20",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IERC20__factory>;
+    getContractFactory(
+      name: "IERC20Metadata",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IERC20Metadata__factory>;
+    getContractFactory(
+      name: "IFactory",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IFactory__factory>;
+    getContractFactory(
+      name: "IUniswapRouter01",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IUniswapRouter01__factory>;
+    getContractFactory(
+      name: "IUniswapRouter02",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IUniswapRouter02__factory>;
+    getContractFactory(
+      name: "IUniswapV2Pair",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.IUniswapV2Pair__factory>;
+    getContractFactory(
+      name: "Ownable",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Ownable__factory>;
+    getContractFactory(
+      name: "Shibnobi",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.Shibnobi__factory>;
 
     getContractAt(
       name: "Lock",
@@ -40,6 +76,51 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.TokenSaleChallenge>;
+    getContractAt(
+      name: "ERC20",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ERC20>;
+    getContractAt(
+      name: "IERC20",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IERC20>;
+    getContractAt(
+      name: "IERC20Metadata",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IERC20Metadata>;
+    getContractAt(
+      name: "IFactory",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IFactory>;
+    getContractAt(
+      name: "IUniswapRouter01",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IUniswapRouter01>;
+    getContractAt(
+      name: "IUniswapRouter02",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IUniswapRouter02>;
+    getContractAt(
+      name: "IUniswapV2Pair",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.IUniswapV2Pair>;
+    getContractAt(
+      name: "Ownable",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Ownable>;
+    getContractAt(
+      name: "Shibnobi",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.Shibnobi>;
 
     // default types
     getContractFactory(
